@@ -1,0 +1,13 @@
+# Get latest commit of packer plugin for managing other plugins.
+[$HOME/.local/share/nvim/site/pack/packer/start/packer.nvim]
+checkout = git clone --depth 1 https://github.com/wbthomason/packer.nvim packer.nvim
+# Make sure packer is cloned before bootstrap.
+# Default order is 10.
+order = 5
+# Main repository (managed by vcsh, not git).
+[$HOME/.config/vcsh/repo.d/nvim.git]
+checkout = vcsh clone git@github.com:0xcharly/vcsh-dot-nvim.git nvim
+post_checkout =
+  set -e
+  # Bootstrap configured plugins.
+  nvim --headless -u $HOME/.config/nvim/lua/plugins.lua -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
