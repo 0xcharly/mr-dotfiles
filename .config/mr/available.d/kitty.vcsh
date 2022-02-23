@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/kitty.git]
-checkout = vcsh clone 'https://github.com/0xcharly/vcsh-dot-kitty' kitty
+checkout = vcsh clone github.com:0xcharly/vcsh-dot-kitty kitty

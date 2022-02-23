@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/wezterm.git]
-checkout = vcsh clone 'https://github.com/0xcharly/vcsh-dot-wezterm' wezterm
+checkout = vcsh clone github.com:0xcharly/vcsh-dot-wezterm.git wezterm

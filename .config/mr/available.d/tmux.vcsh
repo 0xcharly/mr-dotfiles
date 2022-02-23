@@ -2,4 +2,4 @@
 checkout = git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 pre_update = git pull origin master
 [$HOME/.config/vcsh/repo.d/tmux.git]
-checkout = vcsh clone 'https://github.com/0xcharly/vcsh-dot-tmux' tmux
+checkout = vcsh clone github.com:0xcharly/vcsh-dot-tmux.git tmux
