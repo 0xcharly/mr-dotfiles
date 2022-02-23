@@ -3,13 +3,19 @@
 !/.gitignore.d/mr
 !/.README.d
 !/.README.d/mr.md
+!/.config
+!/.config/mr
+!/.config/mr/available.d
 !/.config/mr/available.d/mr.vcsh
 !/.config/mr/available.d/nvim.vcsh
 !/.config/mr/available.d/tmux.vcsh
 !/.config/mr/available.d/kitty.vcsh
+!/.config/mr/available.d/wezterm.vcsh
+!/.config/mr/config.d
 !/.config/mr/config.d/mr.vcsh
 !/.config/mr/config.d/nvim.vcsh
 !/.config/mr/config.d/tmux.vcsh
 !/.config/mr/config.d/kitty.vcsh
+!/.config/mr/config.d/wezterm.vcsh
 !/.mrconfig
 
