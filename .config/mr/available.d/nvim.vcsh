@@ -6,7 +6,7 @@ checkout = git clone --depth 1 https://github.com/wbthomason/packer.nvim packer.
 order = 5
 # Main repository (managed by vcsh, not git).
 [$HOME/.config/vcsh/repo.d/nvim.git]
-checkout = vcsh clone github.com:0xcharly/vcsh-dot-nvim.git nvim
+checkout = vcsh clone git@github.com:0xcharly/vcsh-dot-nvim.git nvim
 post_checkout =
   set -e
   # Bootstrap configured plugins.
