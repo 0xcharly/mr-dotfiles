@@ -9,6 +9,7 @@
 !/.config/mr/available.d/fish.vcsh
 !/.config/mr/available.d/ideavim.vcsh
 !/.config/mr/available.d/kitty.vcsh
+!/.config/mr/available.d/git.vcsh
 !/.config/mr/available.d/mr.vcsh
 !/.config/mr/available.d/nvim.vcsh
 !/.config/mr/available.d/ssh.vcsh
@@ -18,6 +19,7 @@
 !/.config/mr/config.d/fish.vcsh
 !/.config/mr/config.d/ideavim.vcsh
 !/.config/mr/config.d/kitty.vcsh
+!/.config/mr/config.d/git.vcsh
 !/.config/mr/config.d/mr.vcsh
 !/.config/mr/config.d/nvim.vcsh
 !/.config/mr/config.d/ssh.vcsh
